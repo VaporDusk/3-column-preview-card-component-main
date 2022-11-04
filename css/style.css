@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+}
+.container {
+  min-width: 375px;
+  background-color: hsl(0, 0%, 95%);
+  padding: 88px 0px;
+}
+.card {
+  box-sizing: border-box;
+  width: 327px;
+  height: 442px;
+  margin: 0 auto;
+  padding: 48px 49px 48px 49px;
+}
+.card img {
+  margin: 0px 0px 31px 0px;
+}
+.card h2 {
+  margin-block: 0;
+  margin-inline: 0;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
+  margin: 0px 0px 25px 0px;
+  color: hsl(0, 0%, 95%);
+}
+.card p {
+  margin-block: 0;
+  margin-inline: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  margin: 0px 0px 25px 0px;
+  line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.button {
+  display: block;
+  width: 146px;
+  height: 48px;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 24px;
+  line-height: 48px;
+  text-decoration: none;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+.button:hover {
+  box-sizing: border-box;
+  line-height: 46px;
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.sedans a {
+  color: hsl(31, 77%, 52%);
+}
+.sedans a:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+}
+.suvs a {
+  color: hsl(184, 100%, 22%);
+}
+.suvs a:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury a {
+  color: hsl(179, 100%, 13%);
+}
+.luxury a:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media screen and (min-width: 921px) {
+  .container {
+    min-width: 921px;
+    padding: 171px 0px 129px 0px;
+    text-align: center;
+  }
+  .card {
+    display: inline-block;
+    margin: 0px;
+    width: 307px;
+    height: 500px;
+    text-align: justify;
+    padding: 48px;
+  }
+  .card p {
+    margin: 0px 0px 83px 0px;
+  }
+  .sedans {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 9px;
+  }
+  .luxury {
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 0px;
+  }
+}
