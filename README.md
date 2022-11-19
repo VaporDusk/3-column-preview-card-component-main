@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-- How does CSS and HTML worsk
+- How does CSS and HTML works
 
 ### Continued development
 
